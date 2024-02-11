@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lexend:wght@300&display=swap');
+
+body{
+    margin: 0;
+    background-color: #eee;
+}
+
+.wrapper{
+    display:flex;
+    height: auto;
+    width: auto;
+    gap: 3rem;
+    margin-right: 10em;
+}
+
+.bg{
+    background-image: url(image/img1-roan-lavery.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 70vw;
+}
+
+.title{
+    margin-top: 25vh;
+    background-color: rgba(0, 0, 0, .5);
+    font-family: Black Ops One;
+    color: #eee;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Lexend;
+}
+
+.form-sec form > div {
+    display: inline-flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-right: 5em ;
+}
+
+.form-sec form input {
+    width: 15rem; 
+    padding: 3px; 
+    border: 1px solid rgba(0, 0, 0, .6);
+    border-radius: 5px;
+
+
+    &:invalid{
+        border: 1px solid rgba(250, 34, 34, 0.7);
+    }
+}
+
+.form-sec form button{
+    padding: 1em;
+    background-color: rgb(86, 128, 24);
+    border-radius: 1em;
+    border: none;
+    display: block;
+    font-weight: bolder;
+    color: white;
+    margin-top: 1em;
+}
+
+.form-sec form a{
+    color: rgb(86, 128, 24);
+    text-decoration: none;
+}
